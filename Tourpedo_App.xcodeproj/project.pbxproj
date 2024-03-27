@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5416FF2BB2550200161D43 /* MyVehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5416FE2BB2550200161D43 /* MyVehiclesView.swift */; };
+		9D5417012BB264D600161D43 /* location view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417002BB264D600161D43 /* location view.swift */; };
+		9D5417032BB473F100161D43 /* TourSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417022BB473F100161D43 /* TourSegment.swift */; };
+		9D5417062BB4745700161D43 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417052BB4745700161D43 /* LogoutView.swift */; };
+		9D5417082BB4747500161D43 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417072BB4747500161D43 /* UserProfileView.swift */; };
+		9D54170A2BB4748F00161D43 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417092BB4748F00161D43 /* InboxView.swift */; };
+		9D54170C2BB474C600161D43 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D54170B2BB474C600161D43 /* FavoritesView.swift */; };
+		9D5417122BB478E500161D43 /* Vehicle Type Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417112BB478E500161D43 /* Vehicle Type Data Model.swift */; };
+		9D5417142BB4790F00161D43 /* Vehicle Make Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5417132BB4790F00161D43 /* Vehicle Make Data Model.swift */; };
+		9D88C7EC2BA4F0F1001A00F2 /* Tourpedo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C7EB2BA4F0F1001A00F2 /* Tourpedo_AppApp.swift */; };
+		9D88C7EE2BA4F0F1001A00F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C7ED2BA4F0F1001A00F2 /* ContentView.swift */; };
+		9D88C7F02BA4F0F1001A00F2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C7EF2BA4F0F1001A00F2 /* Item.swift */; };
+		9D88C7F22BA4F0F2001A00F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D88C7F12BA4F0F2001A00F2 /* Assets.xcassets */; };
+		9D88C7F62BA4F0F2001A00F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D88C7F52BA4F0F2001A00F2 /* Preview Assets.xcassets */; };
+		9D88C8002BA4F0F2001A00F2 /* Tourpedo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C7FF2BA4F0F2001A00F2 /* Tourpedo_AppTests.swift */; };
+		9D88C80A2BA4F0F2001A00F2 /* Tourpedo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8092BA4F0F2001A00F2 /* Tourpedo_AppUITests.swift */; };
+		9D88C80C2BA4F0F2001A00F2 /* Tourpedo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C80B2BA4F0F2001A00F2 /* Tourpedo_AppUITestsLaunchTests.swift */; };
+		9D88C8192BA4F160001A00F2 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D88C8182BA4F160001A00F2 /* vehicles.json */; };
+		9D88C81B2BA4F193001A00F2 /* Vehicle Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C81A2BA4F193001A00F2 /* Vehicle Data Model.swift */; };
+		9D88C81D2BA4F1B6001A00F2 /* Vehicle Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C81C2BA4F1B6001A00F2 /* Vehicle Card.swift */; };
+		9D88C81F2BA4F1CC001A00F2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C81E2BA4F1CC001A00F2 /* ViewModel.swift */; };
+		9D88C8212BA4F246001A00F2 /* Vehicle List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8202BA4F246001A00F2 /* Vehicle List.swift */; };
+		9D88C8232BA4F25E001A00F2 /* Vehicle Details View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8222BA4F25E001A00F2 /* Vehicle Details View.swift */; };
+		9D88C8252BA4F288001A00F2 /* Main Tab View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8242BA4F288001A00F2 /* Main Tab View.swift */; };
+		9D88C8272BA4F299001A00F2 /* App Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8262BA4F299001A00F2 /* App Background.swift */; };
+		9D88C8292BA4F2B3001A00F2 /* Add A Vehicle View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C8282BA4F2B3001A00F2 /* Add A Vehicle View.swift */; };
+		9D88C82B2BA4F2C8001A00F2 /* App Tab Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C82A2BA4F2C8001A00F2 /* App Tab Bar.swift */; };
+		9D88C82D2BA4F2D9001A00F2 /* Login View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C82C2BA4F2D9001A00F2 /* Login View.swift */; };
+		9D88C82F2BA4F2E9001A00F2 /* App Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88C82E2BA4F2E9001A00F2 /* App Root.swift */; };
+		9DB2AF662BAE393100AE5933 /* ActionMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2AF652BAE393100AE5933 /* ActionMenuItem.swift */; };
+		9DB2AF682BAE418F00AE5933 /* CreateATour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2AF672BAE418F00AE5933 /* CreateATour.swift */; };
+		9DB2AF6A2BAE749900AE5933 /* Tour Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2AF692BAE749900AE5933 /* Tour Data Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D88C7FC2BA4F0F2001A00F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D88C7E02BA4F0F1001A00F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D88C7E72BA4F0F1001A00F2;
+			remoteInfo = Tourpedo_App;
+		};
+		9D88C8062BA4F0F2001A00F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D88C7E02BA4F0F1001A00F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D88C7E72BA4F0F1001A00F2;
+			remoteInfo = Tourpedo_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D5416FE2BB2550200161D43 /* MyVehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesView.swift; sourceTree = "<group>"; };
+		9D5417002BB264D600161D43 /* location view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "location view.swift"; sourceTree = "<group>"; };
+		9D5417022BB473F100161D43 /* TourSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourSegment.swift; sourceTree = "<group>"; };
+		9D5417052BB4745700161D43 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		9D5417072BB4747500161D43 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		9D5417092BB4748F00161D43 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		9D54170B2BB474C600161D43 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		9D5417112BB478E500161D43 /* Vehicle Type Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle Type Data Model.swift"; sourceTree = "<group>"; };
+		9D5417132BB4790F00161D43 /* Vehicle Make Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle Make Data Model.swift"; sourceTree = "<group>"; };
+		9D88C7E82BA4F0F1001A00F2 /* Tourpedo_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourpedo_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D88C7EB2BA4F0F1001A00F2 /* Tourpedo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourpedo_AppApp.swift; sourceTree = "<group>"; };
+		9D88C7ED2BA4F0F1001A00F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D88C7EF2BA4F0F1001A00F2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9D88C7F12BA4F0F2001A00F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D88C7F32BA4F0F2001A00F2 /* Tourpedo_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tourpedo_App.entitlements; sourceTree = "<group>"; };
+		9D88C7F52BA4F0F2001A00F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D88C7FB2BA4F0F2001A00F2 /* Tourpedo_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tourpedo_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D88C7FF2BA4F0F2001A00F2 /* Tourpedo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourpedo_AppTests.swift; sourceTree = "<group>"; };
+		9D88C8052BA4F0F2001A00F2 /* Tourpedo_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tourpedo_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D88C8092BA4F0F2001A00F2 /* Tourpedo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourpedo_AppUITests.swift; sourceTree = "<group>"; };
+		9D88C80B2BA4F0F2001A00F2 /* Tourpedo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourpedo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D88C8182BA4F160001A00F2 /* vehicles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
+		9D88C81A2BA4F193001A00F2 /* Vehicle Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle Data Model.swift"; sourceTree = "<group>"; };
+		9D88C81C2BA4F1B6001A00F2 /* Vehicle Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle Card.swift"; sourceTree = "<group>"; };
+		9D88C81E2BA4F1CC001A00F2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9D88C8202BA4F246001A00F2 /* Vehicle List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle List.swift"; sourceTree = "<group>"; };
+		9D88C8222BA4F25E001A00F2 /* Vehicle Details View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle Details View.swift"; sourceTree = "<group>"; };
+		9D88C8242BA4F288001A00F2 /* Main Tab View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Tab View.swift"; sourceTree = "<group>"; };
+		9D88C8262BA4F299001A00F2 /* App Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Background.swift"; sourceTree = "<group>"; };
+		9D88C8282BA4F2B3001A00F2 /* Add A Vehicle View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add A Vehicle View.swift"; sourceTree = "<group>"; };
+		9D88C82A2BA4F2C8001A00F2 /* App Tab Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Tab Bar.swift"; sourceTree = "<group>"; };
+		9D88C82C2BA4F2D9001A00F2 /* Login View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login View.swift"; sourceTree = "<group>"; };
+		9D88C82E2BA4F2E9001A00F2 /* App Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Root.swift"; sourceTree = "<group>"; };
+		9DB2AF652BAE393100AE5933 /* ActionMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionMenuItem.swift; sourceTree = "<group>"; };
+		9DB2AF672BAE418F00AE5933 /* CreateATour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateATour.swift; sourceTree = "<group>"; };
+		9DB2AF692BAE749900AE5933 /* Tour Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tour Data Model.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D88C7E52BA4F0F1001A00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C7F82BA4F0F2001A00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C8022BA4F0F2001A00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D5417042BB473FB00161D43 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D5417022BB473F100161D43 /* TourSegment.swift */,
+				9DB2AF692BAE749900AE5933 /* Tour Data Model.swift */,
+				9D88C81A2BA4F193001A00F2 /* Vehicle Data Model.swift */,
+				9D5417132BB4790F00161D43 /* Vehicle Make Data Model.swift */,
+				9D5417112BB478E500161D43 /* Vehicle Type Data Model.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		9D54170D2BB4751400161D43 /* Bullshit */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C82A2BA4F2C8001A00F2 /* App Tab Bar.swift */,
+				9D88C7ED2BA4F0F1001A00F2 /* ContentView.swift */,
+				9D5417002BB264D600161D43 /* location view.swift */,
+			);
+			path = Bullshit;
+			sourceTree = "<group>";
+		};
+		9D5417102BB4757C00161D43 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C81C2BA4F1B6001A00F2 /* Vehicle Card.swift */,
+				9D88C8202BA4F246001A00F2 /* Vehicle List.swift */,
+				9D5416FE2BB2550200161D43 /* MyVehiclesView.swift */,
+				9D88C8222BA4F25E001A00F2 /* Vehicle Details View.swift */,
+				9D88C8282BA4F2B3001A00F2 /* Add A Vehicle View.swift */,
+				9D88C8182BA4F160001A00F2 /* vehicles.json */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		9D88C7DF2BA4F0F1001A00F2 = {
+			isa = PBXGroup;
+			children = (
+				9D88C7EA2BA4F0F1001A00F2 /* Tourpedo_App */,
+				9D88C7FE2BA4F0F2001A00F2 /* Tourpedo_AppTests */,
+				9D88C8082BA4F0F2001A00F2 /* Tourpedo_AppUITests */,
+				9D88C7E92BA4F0F1001A00F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D88C7E92BA4F0F1001A00F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C7E82BA4F0F1001A00F2 /* Tourpedo_App.app */,
+				9D88C7FB2BA4F0F2001A00F2 /* Tourpedo_AppTests.xctest */,
+				9D88C8052BA4F0F2001A00F2 /* Tourpedo_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D88C7EA2BA4F0F1001A00F2 /* Tourpedo_App */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C7EB2BA4F0F1001A00F2 /* Tourpedo_AppApp.swift */,
+				9D88C82E2BA4F2E9001A00F2 /* App Root.swift */,
+				9D88C81E2BA4F1CC001A00F2 /* ViewModel.swift */,
+				9D88C82C2BA4F2D9001A00F2 /* Login View.swift */,
+				9D88C8242BA4F288001A00F2 /* Main Tab View.swift */,
+				9D88C8262BA4F299001A00F2 /* App Background.swift */,
+				9DB2AF672BAE418F00AE5933 /* CreateATour.swift */,
+				9DB2AF652BAE393100AE5933 /* ActionMenuItem.swift */,
+				9D54170B2BB474C600161D43 /* FavoritesView.swift */,
+				9D5417092BB4748F00161D43 /* InboxView.swift */,
+				9D5417072BB4747500161D43 /* UserProfileView.swift */,
+				9D5417052BB4745700161D43 /* LogoutView.swift */,
+				9D5417042BB473FB00161D43 /* Data Models */,
+				9D5417102BB4757C00161D43 /* Vehicles */,
+				9D54170D2BB4751400161D43 /* Bullshit */,
+				9D88C7EF2BA4F0F1001A00F2 /* Item.swift */,
+				9D88C7F12BA4F0F2001A00F2 /* Assets.xcassets */,
+				9D88C7F32BA4F0F2001A00F2 /* Tourpedo_App.entitlements */,
+				9D88C7F42BA4F0F2001A00F2 /* Preview Content */,
+			);
+			path = Tourpedo_App;
+			sourceTree = "<group>";
+		};
+		9D88C7F42BA4F0F2001A00F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C7F52BA4F0F2001A00F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D88C7FE2BA4F0F2001A00F2 /* Tourpedo_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C7FF2BA4F0F2001A00F2 /* Tourpedo_AppTests.swift */,
+			);
+			path = Tourpedo_AppTests;
+			sourceTree = "<group>";
+		};
+		9D88C8082BA4F0F2001A00F2 /* Tourpedo_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D88C8092BA4F0F2001A00F2 /* Tourpedo_AppUITests.swift */,
+				9D88C80B2BA4F0F2001A00F2 /* Tourpedo_AppUITestsLaunchTests.swift */,
+			);
+			path = Tourpedo_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D88C7E72BA4F0F1001A00F2 /* Tourpedo_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D88C80F2BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_App" */;
+			buildPhases = (
+				9D88C7E42BA4F0F1001A00F2 /* Sources */,
+				9D88C7E52BA4F0F1001A00F2 /* Frameworks */,
+				9D88C7E62BA4F0F1001A00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tourpedo_App;
+			productName = Tourpedo_App;
+			productReference = 9D88C7E82BA4F0F1001A00F2 /* Tourpedo_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D88C7FA2BA4F0F2001A00F2 /* Tourpedo_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D88C8122BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_AppTests" */;
+			buildPhases = (
+				9D88C7F72BA4F0F2001A00F2 /* Sources */,
+				9D88C7F82BA4F0F2001A00F2 /* Frameworks */,
+				9D88C7F92BA4F0F2001A00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D88C7FD2BA4F0F2001A00F2 /* PBXTargetDependency */,
+			);
+			name = Tourpedo_AppTests;
+			productName = Tourpedo_AppTests;
+			productReference = 9D88C7FB2BA4F0F2001A00F2 /* Tourpedo_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D88C8042BA4F0F2001A00F2 /* Tourpedo_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D88C8152BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_AppUITests" */;
+			buildPhases = (
+				9D88C8012BA4F0F2001A00F2 /* Sources */,
+				9D88C8022BA4F0F2001A00F2 /* Frameworks */,
+				9D88C8032BA4F0F2001A00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D88C8072BA4F0F2001A00F2 /* PBXTargetDependency */,
+			);
+			name = Tourpedo_AppUITests;
+			productName = Tourpedo_AppUITests;
+			productReference = 9D88C8052BA4F0F2001A00F2 /* Tourpedo_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D88C7E02BA4F0F1001A00F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9D88C7E72BA4F0F1001A00F2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9D88C7FA2BA4F0F2001A00F2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9D88C7E72BA4F0F1001A00F2;
+					};
+					9D88C8042BA4F0F2001A00F2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9D88C7E72BA4F0F1001A00F2;
+					};
+				};
+			};
+			buildConfigurationList = 9D88C7E32BA4F0F1001A00F2 /* Build configuration list for PBXProject "Tourpedo_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D88C7DF2BA4F0F1001A00F2;
+			productRefGroup = 9D88C7E92BA4F0F1001A00F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D88C7E72BA4F0F1001A00F2 /* Tourpedo_App */,
+				9D88C7FA2BA4F0F2001A00F2 /* Tourpedo_AppTests */,
+				9D88C8042BA4F0F2001A00F2 /* Tourpedo_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D88C7E62BA4F0F1001A00F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D88C7F62BA4F0F2001A00F2 /* Preview Assets.xcassets in Resources */,
+				9D88C8192BA4F160001A00F2 /* vehicles.json in Resources */,
+				9D88C7F22BA4F0F2001A00F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C7F92BA4F0F2001A00F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C8032BA4F0F2001A00F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D88C7E42BA4F0F1001A00F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D88C7EE2BA4F0F1001A00F2 /* ContentView.swift in Sources */,
+				9D88C81D2BA4F1B6001A00F2 /* Vehicle Card.swift in Sources */,
+				9D88C8272BA4F299001A00F2 /* App Background.swift in Sources */,
+				9D54170A2BB4748F00161D43 /* InboxView.swift in Sources */,
+				9D88C7F02BA4F0F1001A00F2 /* Item.swift in Sources */,
+				9D88C81B2BA4F193001A00F2 /* Vehicle Data Model.swift in Sources */,
+				9D5417032BB473F100161D43 /* TourSegment.swift in Sources */,
+				9D88C81F2BA4F1CC001A00F2 /* ViewModel.swift in Sources */,
+				9D5417082BB4747500161D43 /* UserProfileView.swift in Sources */,
+				9D88C7EC2BA4F0F1001A00F2 /* Tourpedo_AppApp.swift in Sources */,
+				9D5416FF2BB2550200161D43 /* MyVehiclesView.swift in Sources */,
+				9D5417142BB4790F00161D43 /* Vehicle Make Data Model.swift in Sources */,
+				9D88C8232BA4F25E001A00F2 /* Vehicle Details View.swift in Sources */,
+				9D88C8252BA4F288001A00F2 /* Main Tab View.swift in Sources */,
+				9DB2AF662BAE393100AE5933 /* ActionMenuItem.swift in Sources */,
+				9D5417012BB264D600161D43 /* location view.swift in Sources */,
+				9D88C82B2BA4F2C8001A00F2 /* App Tab Bar.swift in Sources */,
+				9DB2AF682BAE418F00AE5933 /* CreateATour.swift in Sources */,
+				9D88C82F2BA4F2E9001A00F2 /* App Root.swift in Sources */,
+				9D88C8292BA4F2B3001A00F2 /* Add A Vehicle View.swift in Sources */,
+				9D88C82D2BA4F2D9001A00F2 /* Login View.swift in Sources */,
+				9D54170C2BB474C600161D43 /* FavoritesView.swift in Sources */,
+				9DB2AF6A2BAE749900AE5933 /* Tour Data Model.swift in Sources */,
+				9D5417062BB4745700161D43 /* LogoutView.swift in Sources */,
+				9D5417122BB478E500161D43 /* Vehicle Type Data Model.swift in Sources */,
+				9D88C8212BA4F246001A00F2 /* Vehicle List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C7F72BA4F0F2001A00F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D88C8002BA4F0F2001A00F2 /* Tourpedo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D88C8012BA4F0F2001A00F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D88C80C2BA4F0F2001A00F2 /* Tourpedo_AppUITestsLaunchTests.swift in Sources */,
+				9D88C80A2BA4F0F2001A00F2 /* Tourpedo_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D88C7FD2BA4F0F2001A00F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D88C7E72BA4F0F1001A00F2 /* Tourpedo_App */;
+			targetProxy = 9D88C7FC2BA4F0F2001A00F2 /* PBXContainerItemProxy */;
+		};
+		9D88C8072BA4F0F2001A00F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D88C7E72BA4F0F1001A00F2 /* Tourpedo_App */;
+			targetProxy = 9D88C8062BA4F0F2001A00F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D88C80D2BA4F0F2001A00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D88C80E2BA4F0F2001A00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9D88C8102BA4F0F2001A00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Tourpedo_App/Tourpedo_App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tourpedo_App/Preview Content\"";
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D88C8112BA4F0F2001A00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Tourpedo_App/Tourpedo_App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tourpedo_App/Preview Content\"";
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9D88C8132BA4F0F2001A00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tourpedo_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tourpedo_App";
+			};
+			name = Debug;
+		};
+		9D88C8142BA4F0F2001A00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tourpedo_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tourpedo_App";
+			};
+			name = Release;
+		};
+		9D88C8162BA4F0F2001A00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tourpedo_App;
+			};
+			name = Debug;
+		};
+		9D88C8172BA4F0F2001A00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2FG6QWH72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tourpedo-App.Tourpedo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tourpedo_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D88C7E32BA4F0F1001A00F2 /* Build configuration list for PBXProject "Tourpedo_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D88C80D2BA4F0F2001A00F2 /* Debug */,
+				9D88C80E2BA4F0F2001A00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D88C80F2BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D88C8102BA4F0F2001A00F2 /* Debug */,
+				9D88C8112BA4F0F2001A00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D88C8122BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D88C8132BA4F0F2001A00F2 /* Debug */,
+				9D88C8142BA4F0F2001A00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D88C8152BA4F0F2001A00F2 /* Build configuration list for PBXNativeTarget "Tourpedo_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D88C8162BA4F0F2001A00F2 /* Debug */,
+				9D88C8172BA4F0F2001A00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D88C7E02BA4F0F1001A00F2 /* Project object */;
+}
